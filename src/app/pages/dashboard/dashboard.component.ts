@@ -355,7 +355,7 @@ export class DashboardComponent implements OnInit {
     gradientStroke.addColorStop(0, 'rgba(66,134,121,0)'); //green colors
 
     var data = {
-      labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV'],
+      labels: ['JUL', 'AGO', 'SEP', 'OCT', 'NOV'],
       datasets: [{
         label: "My First dataset",
         fill: true,
@@ -371,7 +371,7 @@ export class DashboardComponent implements OnInit {
         pointHoverRadius: 4,
         pointHoverBorderWidth: 15,
         pointRadius: 4,
-        data: [90, 27, 60, 12, 80],
+        data: [20, 60, 45, 65, 80],
       }]
     };
 
@@ -446,7 +446,7 @@ export class DashboardComponent implements OnInit {
         display: false
       },
       data: {
-        labels: ['USA', 'GER', 'AUS', 'UK', 'RO', 'BR'],
+        labels: ['USA', 'MEX', 'ESP', 'ARG', 'COL', 'BRA'],
         datasets: [{
           label: "Countries",
           fill: true,

@@ -30,7 +30,7 @@ export const ROUTES: RouteInfo[] = [
   //   class: "" },
   {
     path: "/notifications",
-    title: "Notifications",
+    title: "Notificaciones",
     rtlTitle: "إخطارات",
     icon: "icon-bell-55",
     class: ""
@@ -38,18 +38,18 @@ export const ROUTES: RouteInfo[] = [
 
   {
     path: "/user",
-    title: "User Profile",
+    title: "Perfil de Usuario",
     rtlTitle: "ملف تعريفي للمستخدم",
     icon: "icon-single-02",
     class: ""
-  },
-  {
-    path: "/tables",
-    title: "Table List",
-    rtlTitle: "قائمة الجدول",
-    icon: "icon-puzzle-10",
-    class: ""
-  },
+  }
+  // {
+  //   path: "/tables",
+  //   title: "Table List",
+  //   rtlTitle: "قائمة الجدول",
+  //   icon: "icon-puzzle-10",
+  //   class: ""
+  // },
   // {
   //   path: "/typography",
   //   title: "Typography",
